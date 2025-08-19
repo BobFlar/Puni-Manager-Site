@@ -1,5 +1,5 @@
     (function () {
-      const DOWNLOAD_URL = "https://github.com/BobFlar/Puni-Manager/releases/download/1.2/Puni_Manager_1.2.apk";
+      const DOWNLOAD_URL = "https://github.com/BobFlar/Puni-Manager/releases/download/1.1/Puni_Manager_1.1.apk";
       const FALLBACK_URL = "https://github.com/BobFlar/Puni-Manager/releases/tag/1.1";
 
       const btn = document.getElementById("downloadBtn");
