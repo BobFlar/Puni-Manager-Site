@@ -1,6 +1,6 @@
     (function () {
-      const DOWNLOAD_URL = "https://github.com/BobFlar/Puni-Manager/releases/download/1.1/Puni_Manager_1.1.apk";
-      const FALLBACK_URL = "https://github.com/BobFlar/Puni-Manager/releases/tag/1.1";
+      const DOWNLOAD_URL = "https://github.com/BobFlar/Puni-Manager/releases/download/1.2/PuniManager_1.2.apk";
+      const FALLBACK_URL = "https://github.com/BobFlar/Puni-Manager/releases/tag/1.2";
 
       const btn = document.getElementById("downloadBtn");
       const fallback = document.getElementById("fallbackText");
@@ -27,7 +27,7 @@
       function triggerDownload() {
         const a = document.createElement("a");
         a.href = DOWNLOAD_URL;
-        a.download = "Puni_Manager_1.1.apk";
+        a.download = "Puni_Manager_1.2.apk";
         a.rel = "noopener";
         document.body.appendChild(a);
         a.click();
